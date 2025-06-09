@@ -16,8 +16,8 @@ nav {
     width: 100%;
     border-bottom:1px solid #ffffff6e;
     background-color: #009CFF;
-    padding: 13px 0px;
- 
+    padding: 15px 0px;
+
 }
 
 .nav-container {
@@ -127,7 +127,7 @@ nav {
         width: 100%;
         background-color: #009CFF;
         display: flex;
-        height: 70px;
+        height: 94px;
         align-items: center;
     }
 
@@ -135,7 +135,7 @@ nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding-left: calc(10px + 5vw);
+        padding-left: calc(10px + 4.5vw);
         margin: auto;
         color: white;
     }
