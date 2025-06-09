@@ -1,5 +1,5 @@
 .desktop{
-    text-align: center !important;
+    width: 100%;
     justify-content: center;
     font-size: clamp(23px, 3vw, 30px) !important;
     color: #009CFF;

@@ -2,20 +2,22 @@ body {
     box-sizing: border-box;
     padding: 0%;
     margin: 0;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 *,
 *::before,
 *::after {
     box-sizing: border-box;
+
 }
 
 nav {
     width: 100%;
     border-bottom:1px solid #ffffff6e;
     background-color: #009CFF;
-    padding: 10px 0px;
+    padding: 13px 0px;
+ 
 }
 
 .nav-container {
