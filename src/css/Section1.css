@@ -21,6 +21,7 @@
         font-size: clamp(20px, 3vw, 25px) !important;
         color: #009CFF;
         display: flex;
+        width: fit-content;
         flex-direction: row;
         align-items: baseline;
         padding: 0px !important;
