@@ -9,7 +9,7 @@ nav {
     width: 100%;
     border-bottom:1px solid #ffffff6e;
     background-color: #009CFF;
-    height: 90px;
+    padding: 10px 0px;
 }
 
 .nav-container {
@@ -19,7 +19,7 @@ nav {
     width: 90%;
     margin: auto;
     color: white;
-    background-color: #009CFF;
+    background-color: #009CFF !important;
 }
 
 .nav-menu {
