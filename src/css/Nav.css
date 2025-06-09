@@ -1,0 +1,236 @@
+body {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+    overflow-X: hidden;
+}
+
+nav {
+    width: 100%;
+    border-bottom:1px solid #ffffff6e;
+    background-color: #009CFF;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    color: white;
+    background-color: #009CFF;
+}
+
+.nav-menu {
+    background: none;
+    border: 1px solid #ffffff6e;
+    position: relative;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.nav-menu:hover {
+    border: 3px solid #ffffff6e;
+}
+
+.bars {
+    background-color: #ffffff6e;
+    color: white;
+    height: 2px;
+    flex-direction: column;
+    display: flex;
+    width: 25px;
+}
+
+.nav-content1 h1 {
+    font-size: clamp(15px, 1.5vw, 30px);
+    font-weight: 400;
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20px;
+    padding-left: calc(14px + 3vw);
+    opacity: 0;
+    margin-top: -190px;
+    visibility: hidden;
+    transition: all 0.2s ease-in-out;
+    transform: translateY(100px);
+}
+
+.nav-link.show {
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0px;
+    transform: translateY(0px);
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item:nth-child(1) {
+    color: black;
+}
+
+.nav-item:hover {
+    color: black;
+}
+
+.page-link {
+    opacity: 0;
+    visibility: hidden;
+    margin-top: -115px;
+    transform: translateY(100px);
+    list-style-type: none;
+    background-color: white;
+    border-radius: 3px;
+    width: 90%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.page-nav:hover .page-link {
+    opacity: 1;
+    visibility: visible;
+    margin-top: 1px;
+    transform: translateY(0px);
+    z-index: 2;
+    padding: 5px;
+    list-style-type: none;
+}
+
+.page-link li:hover {
+    color: white;
+    background-color: grey;
+}
+
+@media (min-width: 768px) {
+    nav {
+        width: 100%;
+        background-color: #009CFF;
+        display: flex;
+        height: 70px;
+        align-items: center;
+    }
+
+    .nav-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: calc(10px + 5vw);
+        margin: auto;
+        color: white;
+    }
+
+    .nav-menu {
+        background: none;
+        border: 1px solid #ffffff6e;
+        position: relative;
+        padding: 8px;
+        border-radius: 5px;
+        display: flex;
+        cursor: pointer;
+        gap: 5px;
+        flex-direction: column;
+        display: none;
+    }
+
+    .nav-menu:hover {
+        border: 3px solid #ffffff6e;
+    }
+
+    .bars {
+        background-color: #ffffff6e;
+        color: white;
+        height: 2px;
+        flex-direction: column;
+        display: flex;
+        width: 25px;
+    }
+
+    .nav-content1 h1 {
+        font-size: clamp(15px, 1.5vw, 30px);
+        font-weight: 400;
+        padding-left: 20px;
+        margin-top:15px;
+    }
+
+    .nav-link {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding-bottom: 0px;
+        padding-left: 20px;
+        padding-right: 30px;
+        padding-top: 5px;
+        opacity: 1;
+        height: 55px;
+        
+        padding-right: calc(10px + 7vw);
+        margin-top: 35px;
+        visibility: visible;
+        transition: all 0.2s ease-in-out;
+        transform: translateY(0px);
+        font-size: clamp(15px, 1.1vw, 25px);
+    }
+
+    .nav-link.show {
+        opacity: 1;
+        visibility: visible;
+        margin-top: 25px;
+        transform: translateY(0px);
+    }
+
+    .nav-item {
+        color: white;
+        text-decoration: none;
+    }
+
+    .nav-item:nth-child(1) {
+        color: black;
+    }
+
+    .nav-item:hover {
+        color: black;
+    }
+
+    .page-link {
+        opacity: 0;
+        visibility: hidden;
+        margin-top: 0;
+        transform: translateY(100px);
+        list-style-type: none;
+        background-color: white;
+        border-radius: 3px;
+        width: 100%;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-right: -100px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .page-nav:hover .page-link {
+        opacity: 1;
+        visibility: visible;
+        margin-top: 8px;
+        transform: translateY(0px);
+        z-index: 2;
+         padding-right: 70px !important;
+        padding: 5px;
+        list-style-type: none;
+    }
+
+    .page-link li:hover {
+        color: white;
+        background-color: grey;
+    }
+}

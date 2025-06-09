@@ -1,0 +1,71 @@
+.desktop{
+    text-align: center !important;
+    justify-content: center;
+    font-size: clamp(23px, 3vw, 30px) !important;
+    color: #009CFF;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 0px !important;
+    margin: -15px !important;
+}
+
+.envelope-icon, .phone-icon, .clock-icon{
+    display: none;
+}
+
+@media (min-width: 768px){
+    .desktop{
+        text-align: center !important;
+        justify-content: center;
+        font-size: clamp(20px, 3vw, 25px) !important;
+        color: #009CFF;
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        padding: 0px !important;
+        margin: -15px !important;
+    }
+    
+
+    .section1-article1{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px calc(35px + 3vw);
+    }
+
+    .envelope-icon, .phone-icon, .clock-icon{
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+    }
+
+      .clock-icon p{
+        margin-bottom: -10px !important;
+        color:rgb(114, 115, 116);
+    }
+
+    .envelope-icon p{
+        margin-bottom: -10px !important;
+        color:rgb(114, 115, 116);
+    }
+
+    .phone-icon p{
+        margin-bottom: -10px !important;
+        color:rgb(114, 115, 116);
+    }
+
+    .fa-envelope, .fa-clock, .fa-phone{
+        font-size: 20px;
+        border: 1px solid rgba(114, 115, 116, 0.27);
+        border-radius: 50px;
+        padding: 10px;
+        cursor: pointer;
+        color: #009CFF;
+    }
+
+    
+
+}
