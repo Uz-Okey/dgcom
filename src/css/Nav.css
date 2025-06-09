@@ -5,6 +5,12 @@ body {
     overflow-x: hidden;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 nav {
     width: 100%;
     border-bottom:1px solid #ffffff6e;
