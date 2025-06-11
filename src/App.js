@@ -8,6 +8,7 @@ import Page from './js/Page';
 import Contact from './js/Contact';
 import Home from './js/Home';
 import Section1 from './js/Section1'
+import Section2 from './js/Section2'
 function App() {
   return (
     <>
@@ -25,6 +26,7 @@ function App() {
         <Route path="*" element={<h2>Page Not Found</h2>} />
       </Routes>
     </Router>
+    <Section2 />
     </>
   );
 }
