@@ -1,0 +1,147 @@
+.section3 {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.section3-article-container {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-100px);
+    transition: all 0.5s ease-in-out;
+}
+
+.section3-article-container.show{
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0px);
+}
+
+.border {
+    height: 450px;
+    border: 8px solid #009CFF;
+    width: 80%;
+    position: absolute;
+    margin: auto;
+    border-radius: 15px;
+    transform: translate(0%, 0%);
+}
+
+.section3-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    transform: translate(8%, 13%);
+}
+
+.section3-img img {
+    width: 90%;
+    border-radius: 15px;
+    display: block;
+    height: 450px;
+}
+
+.section3-article-content2 {
+    position: relative;
+    margin-top: 90px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+    transform: translateX(100px);
+}
+
+.section3-article-content2.show{
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+.section3-header1 {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.section3-header1 h3 {
+    font-size: clamp(16px, 1.9vw, 20px);
+    font-weight: 500;
+}
+
+.length1 {
+    width: 100px;
+    margin-bottom: 5px;
+    height: 2px;
+    background-color: #009CFF;
+}
+
+.length2 {
+    width: 50px;
+    height: 2px;
+    background-color: #009CFF;
+}
+
+.section3-h1 {
+    font-size: clamp(33px, 4vw, 40px);
+    font-weight: 500;
+}
+
+.section3-h1 span {
+    margin-right: 10px;
+    color: #009CFF;
+}
+
+.section3-content1 p {
+    font-size: clamp(20px, 2vw, 20px);
+    color: grey;
+}
+
+.section3-content2{
+    display: flex;
+    gap: 20px;
+}
+
+.section3-content2-img {
+    width: 90px;
+    border-radius: 50px;
+}
+
+.section3-content2-text p{
+    color: grey;
+}
+
+.section3-content2-text h1{
+    font-weight: 500;
+}
+
+.section3-article-content2 button{
+    cursor: pointer;
+    background-color: #009CFF;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+@media (min-width: 1124px) {
+    .section3{
+        display: flex;
+        gap: 100px;
+        margin-top: 10px;
+        width: 90%;
+    }
+}
+
+@media (min-width: 1224px) {
+    .section3 {
+        display: flex;
+        gap: 100px;
+        margin-top: 10px;
+        width: 85%;
+    }
+}

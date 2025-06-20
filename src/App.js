@@ -9,6 +9,7 @@ import Contact from './js/Contact';
 import Home from './js/Home';
 import Section1 from './js/Section1'
 import Section2 from './js/Section2'
+import Section3 from './js/Section3'
 function App() {
   return (
     <>
@@ -27,6 +28,7 @@ function App() {
       </Routes>
     </Router>
     <Section2 />
+    <Section3 />
     </>
   );
 }

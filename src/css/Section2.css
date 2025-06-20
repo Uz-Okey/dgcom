@@ -54,7 +54,7 @@ font-weight: 700;
     color: #009CFF;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .section22 {
             width: 100%;
             opacity: 0;
@@ -102,7 +102,7 @@ font-weight: 700;
             color: #009CFF;   }
 }
 
-@media (min-width: 1124px) {
+@media (min-width: 1224px) {
     .section22 {
         width: 100%;
         opacity: 0;
@@ -121,7 +121,7 @@ font-weight: 700;
     .section2-aricle3-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        width: 80%;
+        width: 85%;
         margin: auto !important;
         text-align: center;
         gap: 20px;
